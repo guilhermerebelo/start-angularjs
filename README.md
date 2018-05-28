@@ -1,1 +1,2 @@
-falta compilar esse cara, mas ta quase, webpack ja funcionou
+Start Angular JS & Webpack
+===========
