@@ -4,7 +4,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     entry: './test/app/app.js',
     output: {
-        filename: 'pes-componente-modelo.js'
+        filename: 'componente-modelo.js'
     },
     module: {
         rules: [
