@@ -1,5 +1,5 @@
 {
-  "name": "pes-componente-modelo",
+  "name": "componente-modelo",
   "version": "1.0.0",
   "module": "src/index.js",
   "scripts": {
