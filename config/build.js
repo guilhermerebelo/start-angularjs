@@ -4,12 +4,12 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     entry: {
-        'pes-componente-modelo': './src/index.js'
+        'componente-modelo': './src/index.js'
     },
     output: {
         path: __dirname + '/../dist',
-        filename: 'pes-componente-modelo.js',
-        library: 'pesComponenteModelo',
+        filename: 'componente-modelo.js',
+        library: 'componenteModelo',
         libraryTarget: 'umd'
     },
     module: {
