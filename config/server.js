@@ -2,9 +2,10 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-    entry: './test/app/app.js',
+    // entry: './test/app/app.js',
+    entry: './app/main/app.js',
     output: {
-        filename: 'componente-modelo.js'
+        filename: 'starter.js'
     },
     module: {
         rules: [
@@ -22,16 +23,17 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './test/content/index.html',
+            template: './app/content/index.html',
             inject: 'body'
         }),
         new ExtractTextPlugin({
-            filename: 'componente-modelo.css',
+            filename: 'starter.css',
             allChunks: true
         })
     ],
     externals: {
-        angular: 'angular'
+        angular: 'angular',
+        moment: 'moment'
     },
     devtool: '#source-map',
     devServer: {

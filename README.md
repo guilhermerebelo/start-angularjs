@@ -1,2 +1,1 @@
-Start Angular JS & Webpack
-===========
+#starter angularjs
